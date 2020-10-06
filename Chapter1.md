@@ -35,3 +35,32 @@ The L1 and L2 caches are implemented with a hardware technology known as static 
 2. to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices
 
 ![image-os](./pic/os.png)
+
+### Processes
+
+A process is the operating system’s abstraction for a running program. The operating system keeps track of all the state information that the process needs in order to run. This state, which is known as the context, includes information such as the current values of the PC, the register ﬁle, and the contents of main memory.
+
+![image-process-switch](./pic/process-switch.png)
+
+### Threads
+
+In modern systems a process can actually consist of multiple execution units, called threads, each running in the context of the process and sharing the same code and global data.
+
+### Virtual Memory
+
+Virtual memory is an abstraction that provides each process with the illusion that it has exclusive use of the main memory. Each process has the same uniform view of memory, which is known as its virtual address space.
+
+![image-virtual-memory](./pic/virtual-memory.png)
+
+1. Heap: The heap expands and contracts dynamically at run time as a result of calls to C standard library routines such as malloc and free
+2. Shared library: Near the middle of the address space is an area that holds the code and data for shared libraries such as the C standard library and the math library.
+3. Stack: At the top of the user’s virtual address space is the user stack that the compiler uses to implement function calls.
+4. Kernel virtual memory: The kernel is the part of the operating system that is always resident in memory. The top region of the address space is reserved for the kernel.
+
+### Files
+
+A ﬁle is a sequence of bytes, nothing more and nothing less. Every I/O device, including disks, keyboards, displays, and even networks, is modeled as a ﬁle.
+
+## Communication with Network
+
+![image-network](./pic/network.png)
