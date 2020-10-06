@@ -7,5 +7,11 @@ Notes for *Intro to Computer System*. It is a course with course No. 15-213, 18-
 
 ### Chapter 2
 
+### Chapter 3
+
+### Chapter 4
+
+### Chapter 5 Optimizing Program Performance
+
 
 
