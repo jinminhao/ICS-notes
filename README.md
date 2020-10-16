@@ -13,5 +13,7 @@ Notes for *Intro to Computer System*. It is a course with course No. 15-213, 18-
 
 ### Chapter 5 Optimizing Program Performance
 
+### Chatter 12 Concurrent Programming
+
 
 
